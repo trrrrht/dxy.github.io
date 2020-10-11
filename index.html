@@ -48,67 +48,7 @@
                 <input id="cb" type="checkbox">
                 <span class="slider round"></span>
             </label>
-            <style>
-                @media (min-width: 414px) {
-                    .switch {
-                        position: relative;
-                        display: inline-block !important;
-                        width: 60px;
-                        height: 34px;
-                    }
 
-                    .switch input {
-                        display: none;
-                    }
-
-                    .slider {
-                        position: absolute;
-                        cursor: pointer;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        bottom: 0;
-                        background-color: #ccc;
-                        -webkit-transition: .4s;
-                        transition: .4s;
-                    }
-
-                    .slider:before {
-                        position: absolute;
-                        content: "";
-                        height: 26px;
-                        width: 26px;
-                        left: 4px;
-                        bottom: 4px;
-                        background-color: white;
-                        -webkit-transition: .4s;
-                        transition: .4s;
-                    }
-
-                    input:checked+.slider {
-                        background-color: #1abc9c;
-                    }
-
-                    input:focus+.slider {
-                        box-shadow: 0 0 1px #1abc9c;
-                    }
-
-                    input:checked+.slider:before {
-                        -webkit-transform: translateX(26px);
-                        -ms-transform: translateX(26px);
-                        transform: translateX(26px);
-                    }
-
-                    .slider.round {
-                        border-radius: 34px;
-                    }
-
-                    .slider.round:before {
-                        border-radius: 50%;
-                    }
-                }
-            </style>
-            <!-- 左侧固定开关，记得及时删除这段代码 End-->
 
             <!-- 个人肖像 -->
             <section class="me">
@@ -135,15 +75,21 @@
                 <hr />
                 <ul>
                     <li>
-                        <label>Personal Information</label>
-                        <span>Xiangyu Dong / male / 21</span>
+                        <label>Sex</label>
+                        <span> male</span>
+                    </li>
+					<li>
+                        <label>Age</label>
+                        <span> 21</span>
                     </li>
                     <li>
-                        <label>English Skills</label>
-                        <span>Toefl: 114(24)</span>
-						<span>GRE: 332+3.5</span>
+                        <label>Toefl</label>
+                        <span>114(24)</span>
                     </li>
-
+					<li>
+                        <label>GRE</label>
+                        <span>332+3.5</span>
+                    </li>
                 </ul>
             </section>
 
@@ -154,8 +100,8 @@
                 <hr />
                 <ul>
                     <li>
-                        <label><i class="fa fa-qq"></i></label>
-                        <a target="_blank">912434027</a>
+                        <label><i class="fa fa-wechat"></i></label>
+                        <a target="_blank">dxy912434027</a>
                     </li>
                     <li>
                         <label><i class="fa fa-envelope"></i></label>
@@ -179,7 +125,7 @@
                                 <p>Beihang University Undergraduate </p>
                                 <p>Major: Computer Science</p>
                             </h3>
-                            <time>Time：<mark> 2017.9-2021.7</mark></time>
+                            <time>Time：<mark> 2017.9-2021.6</mark></time>
                             <p>
                                 GPA：<mark>3.79/4.0 (90.5/100)</mark>
                             </p>
@@ -191,39 +137,37 @@
                 <!-- 个人荣誉 -->
                 <section class="edu info-unit">
                     <h2>
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>个人荣誉</h2>
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>Honors</h2>
                     <hr />
     
     
-                    1、 2018 年浙江省优秀毕业生<br />
-                    2、 2017 年浙江省政府奖学金 <br />
+                    1、 The Third-Prize, 2020 Feng Ru Cup Technology Competition<br />
+                    2、 The Third-Prize, 2020 Feng Ru Cup Entrepreneurship Competition<br />
+					3、 University Merit Student scholarship in 2018-2019<br />
+					4、 University Merit Student scholarship in 2019-2020<br />
     
                 </section>
             <!-- 个人技能 -->
             <section class="skill info-unit">
                 <h2>
-                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>Technical Skills</h2>
                 <hr/>
                 <ul>
                     <li>
                         <label>Java</label>
-                        <progress value="80" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>JavaScript</label>
-                        <progress value="50" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>C#</label>
                         <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Python</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>MATLAB</label>
+                        <progress value="50" max="100"></progress>
                     </li>
                     <li>
                         <label>C</label>
                         <progress value="70" max="100"></progress>
-                    </li>
-                    <li>
-                        <label>MySQL</label>
-                        <progress value="60" max="100"></progress>
                     </li>
                 </ul>
             </section>
@@ -234,15 +178,27 @@
             <!-- 专业能力 -->
             <section class="work info-unit">
                 <h2>
-                    <i class="fa fa-pencil" aria-hidden="true"></i>专业能力</h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>Patents & Papers</h2>
                 <hr />
-                <p> 掌握计算机网络、操作系统、软件工程基础课程，熟悉常用设计模式（单例模式、工厂模式、原型模式、适配器模式等）
+                <p> <h3>Patents:</h3>
                 </p>
                 <p>
-                    熟悉常用数据结构(Array、List、Stack、Queue、Heap、Tree),了解Hash、跳表，熟悉常用的排序算法(冒泡、插入、选择、快排、堆排、归并、桶)
+                    1.A multi-layer academic network community discovery method and system based on a generative confrontation network model
+                </p>
+				<p>
+                    2.A differential privacy recommendation method based on heterogeneous information network embedding
                 </p>
                 <p>
-                    熟悉C/Java/C#、理解面向对象思想，掌握Java继承和多态特性。了解JavaWeb常用框架，如Spring、SpringBoot 等。
+                    <h3>Papers:</h3>
+                </p>
+				<p>
+                    1.Pairwise Learning for Name Disambiguation in Large-Scale Heterogeneous Academic Networks (ICDM2020)
+                </p>
+				<p>
+                    2.MedDialog: Two Large-scale Medical Dialogue Datasets (EMNLP2020)
+                </p>	
+				<p>
+                    3.Did You Ask a Good Question? A Cross-Domain Question IntentionClassification Benchmark for Text-to-SQL (EMNLP workshop2020)
                 </p>
             </section>
 
@@ -250,29 +206,115 @@
 
             <section class="project info-unit">
                 <h2>
-                    <i class="fa fa-paper-plane" aria-hidden="true"></i>工作经历</h2>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>Research Experience</h2>
                 <hr />
                 <ul>
                     <li>
                         <h3>
-                            <span>【实习】：杭州代码狗科技有限公司</span>
-                            <time>2019.11-2020.01</time>
+                            <span>Ohio State University, Remote</span>
+                            <time>2020.6 - Present</time>
                         </h3>
                         <ul class="info-content">
                             <li><i class="fa fa-users" aria-hidden="true"></i>
-                                [工作岗位]：Java开发实习生
+                                [Position]：Research Intern
                             </li>
                             <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [参与项目]：API管理中心
+                                [Project]：Undergraduate Research on Text-to-SQL
                             </li>
                             <li>
                                 <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]<br />
+                                [Contribution]<br />
                                 <p>
-                                    &emsp;&emsp;1、制作代码生成器，根据数据库表格生成相应格式的Service、DAO层代码<br />
-                                    &emsp;&emsp;2、根据ElasticSearch提供的Java API 生成统计报表<br />
-                                    &emsp;&emsp;3、使用预排序遍历树算法对于多层级问题优化<br />
-                                    &emsp;&emsp;4、结合代码开发规范、单元测试修改代码BUG
+                                    &emsp;&emsp;1、Study the ideas from scores of paper on Text-to-SQL, and put forward new solutions to the categorization of natural languages based on whether they could be converted into SQL<br />
+                                    &emsp;&emsp;2、Clean text data and proposed the definition of optimal data categorization; Categorized data into 5 types based on definition as the front input for the following steps<br />
+                                    &emsp;&emsp;3、Grasp NLP models including Reborta and got involved in its designing<br />
+									&emsp;&emsp;4、Co-author the final paper Did You Ask a Good Question?A Cross-Domain Question Intention Classiﬁcation Benchmark for Text-to-SQL
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+				<ul>
+                    <li>
+                        <h3>
+                            <span>University of California, San Diego, Remote</span>
+                            <time>2020.2 - 2020.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                [Position]：Research Intern
+                            </li>
+                            <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [Project]：Undergraduate Research on Few-Shot Learning in the Medical Field
+                            </li>
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [Contribution]<br />
+                                <p>
+                                    &emsp;&emsp;1、Reproduced the model Cyclegan using PyTorch based on the paper “Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”<br />
+                                    &emsp;&emsp;2、Reproduced the model by CNN feature extraction, attention-layer filtering, and LSTM text generation, based on the paper “Show, Attend and Tell: Neural Image Caption Generation with Visual Attention”<br />
+                                    &emsp;&emsp;3、Crawled data from haodf.com (a doctor review and inquiry website) to create a database which is used for the project MedDialog: Two Large-scale Medical Dialogue Datasets
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+				<ul>
+                    <li>
+                        <h3>
+                            <span>Big Data Brain Computing Center, Beihang University</span>
+                            <time>2019.12 - 2020.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                [Position]：Research Intern
+                            </li>
+                            <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [Project 1]：Author Name Disambiguation Based on Complex Network
+                            </li>
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [Contribution]<br />
+                                <p>
+                                    &emsp;&emsp;1、Collect authors’ information, such as their names and ID numbers, along with their publications’ ID numbers, topics and venues from Semantic Scholar website<br />
+                                    &emsp;&emsp;2、Conduct clustering analysis using DBSCAN based on keywords of publications from different time periods<br />
+                                    &emsp;&emsp;3、Distinguish an author from other authors who share the same name by the pairlstm model
+                                </p>
+                            </li>
+							<li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [Project 2]：Weibo Information Spreading Analysis Based on Graph Mapping
+                            </li>
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [Contribution]<br />
+                                <p>
+                                    &emsp;&emsp;1、Built a graph network and conducted information propagation analysis using various NLP models and tools<br />
+                                    &emsp;&emsp;2、Used BERT to establish the model for News Emotional Recognition<br />
+                                    &emsp;&emsp;3、Visualized the data analysis result using echarts, pyecharts, and matplotlib
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+				<ul>
+                    <li>
+                        <h3>
+                            <span>State Key Laboratory of Software Development Environment, Beihang University</span>
+                            <time>2018.11 - 2019.3</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                [Position]：Research Intern
+                            </li>
+                            <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                [Project]：Video Human Motion Detection Based on Temporal Flow
+                            </li>
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [Contribution]<br />
+                                <p>
+                                    &emsp;&emsp;1、Extracted sequential flow and optical flow from the video to detect motion<br />
+                                    &emsp;&emsp;2、Collected and processed data, tested and optimized the code
                                 </p>
                             </li>
                         </ul>
@@ -280,75 +322,7 @@
                 </ul>
             </section>
 
-            <!-- 项目经验 -->
-            <section class="project info-unit">
-                <h2>
-                    <i class="fa fa-terminal" aria-hidden="true"></i>项目经验</h2>
-                <hr />
-                <ul>
-                    <li>
-                        <h3>
-                            <span>[项目1]<a href="https://gitee.com/hackhu96/mall" target="_blank"> 商城系统</a></span>
-                            <span class="link">
-                                <a href="https://gitee.com/hackhu96/mall" target="_blank">Demo</a>
-                            </span>
-                            <time>2019.8-2019.9</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：Spring + Spring MVC + MyBatis + MySQL + Ajax</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [模块]用户管理、分类管理、商品管理、购物车管理、收货地址管理、订单管理
-                                <br />
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [职责]Java后端开发
-                                <br />
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [主要贡献]<br />
-                                <p>
-                                    &emsp;&emsp;1、用枚举类型代替无意义常量，规范化编程<br />
-                                    &emsp;&emsp;2、利用 MD5 实现对密码的加密，同时针对常见的：横向越权、纵向越权问题等进行防御式编程<br />
-                                    &emsp;&emsp;3、对于产品分类的多层级问题结合递归算法解决<br />
-                                    &emsp;&emsp;4、对于浮点运算的精度丢失问题进行针对性处理
-                                </p>
-
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>
-                            <span>[项目2] <a href="https://github.com/hackhu2019/seckill" target="_blank">
-                                    秒杀系统</a></span>
-                            <span class="link">
-                                <a href="https://github.com/hackhu2019/seckillk" target="_blank">Demo</a>
-                            </span>
-                            <time>2019.12-2020.3</time>
-                        </h3>
-                        <ul class="info-content">
-                            <li>技术栈：SpringBoot + Spring MVC + MyBatis + MySQL + Redis + RocketMQ</li>
-                            <li>
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                [模块]用户管理、商品管理、交易管理、秒杀管理等
-                            </li>
-                            <li>
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                                [职责]Java后端开发
-                            </li>
-                            <li>
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                                [主要贡献]<br />
-                                <p>
-                                    &emsp;&emsp;1、对用户信息、商品信息等常用数据进行缓存处理
-                                    <br>&emsp;&emsp;2、采用异步流程对交易模块进行优化，维护数据最终一致性
-                                    <br>&emsp;&emsp;3、对秒杀模块引入令牌进行流量削峰、防刷限流
-                                    <br>&emsp;&emsp;4、结合 Jmeter 对秒杀模块进行压力测试
-                                </p>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </section>
+            
             
 
 
@@ -358,17 +332,14 @@
 
 
     <footer class="footer">
-        <p> <b>感谢您花时间阅读我的简历，期待能有机会和您共事。</b> </p>
+        <p> <b>Thanks for reading my resume, hope to work with you.</b> </p>
     </footer>
 
     <!-- 侧栏 -->
     <aside>
         <ul>
             <li>
-                <a href="https://github.com/hackhu2019" target="_blank">Github</a>
-            </li>
-            <li>
-                <a href="https://blog.csdn.net/qq_38288847" target="_blank">Blog</a>
+                <a href="https://github.com/trrrrht" target="_blank">Github</a>
             </li>
         </ul>
     </aside>
